@@ -456,7 +456,40 @@
   <div class="tab-pane fade show active" 
   id="nav-photos" role="tabpanel" 
   aria-labelledby="nav-home-tab">
-  Photos content</div>
+<div class="row">
+  <div class="col-md-4 mt-3">
+    <a href="Image/others/laptop.jpeg" data-toggle="lightbox" data-gallery="example-gallery">
+    <img src="Image/others/laptop.jpeg" class="img-fluid rounded" alt="">
+    </a>
+  </div>
+  <div class="col-md-4 mt-3">
+  <a href="Image/others/mic.jpeg" data-toggle="lightbox" data-gallery="example-gallery">
+    <img src="Image/others/mic.jpeg" class="img-fluid rounded" alt="">
+    </a>
+  </div>
+  <div class="col-md-4 mt-3">
+  <a href="Image/others/cable.jpeg" data-toggle="lightbox" data-gallery="example-gallery">
+    <img src="Image/others/cable.jpeg" class="img-fluid rounded" alt="">
+    </a>
+  </div>
+  <div class="col-md-4 mt-3">
+  <a href="Image/others/image11.jpg" height="100px" data-toggle="lightbox" data-gallery="example-gallery">
+    <img src="Image/others/image11.jpg" class="img-fluid rounded" alt="">
+    </a>
+  </div>
+  <div class="col-md-4 mt-3">
+  <a href="Image/others/image22.jpeg" height="100px" data-toggle="lightbox" data-gallery="example-gallery">
+    <img src="Image/others/image22.jpeg" class="img-fluid rounded" alt="">
+    </a>
+  </div>
+  <div class="col-md-4 mt-3">
+  <a href="Image/others/image33.jpeg" height="100px" data-toggle="lightbox" data-gallery="example-gallery">
+    <img src="Image/others/image33.jpeg" class="img-fluid rounded" alt="">
+    </a>
+  </div>
+</div>  
+
+</div>
   <div class="tab-pane fade" 
   id="nav-videos" role="tabpanel" 
   aria-labelledby="nav-profile-tab">
@@ -471,5 +504,7 @@ Videos content</div>
 <!-- End gallery -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
 integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+<!-- gallery js scrip -->
+<script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
 </body>
 </html>
